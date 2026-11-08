@@ -1,5 +1,3 @@
-# nigeria_road_accident_forecasting
-MSc Data Science Dissertation
 # Machine Learning-Based Forecasting of Road Traffic Accident Trends in Nigeria Using Historical Transport Data
 
 ## Project Overview
