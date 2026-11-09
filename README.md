@@ -97,12 +97,11 @@ The main Jupyter notebooks are:
 
 | Notebook | Purpose |
 |---|---|
-| `01_Exploratory_Data_Analysis.ipynb` | Exploratory analysis and visualisation of road traffic accident data |
-| `02_Sanusi_Research_Comparison.ipynb` | Investigation and reproduction of published Sanusi ARIMA forecasts |
-| `03_Sanusi_Research_ML_Comparison.ipynb` | National annual forecasting and machine-learning model comparison |
-| `04_Feature_Engineering_and_State_Quarter_Analysis.ipynb` | State-quarter feature engineering, Random Forest modelling and evaluation |
+| `01_Sanusi_Research_Model_Comparison.ipynb` | Investigation and reproduction of published Sanusi ARIMA forecasts |
+| `02_Sanusi_Research_ML_Comparison.ipynb` | National annual forecasting and machine-learning model comparison |
+| `03_State_Quarter_EDA.ipynb` | Exploratory analysis and visualisation of road traffic accident data |
+| `04_State_Quarter_Feature_Engineering_and_Model.ipynb` | State-quarter feature engineering, Random Forest modelling and evaluation |
 
-Additional exploratory notebooks or supporting files may also be included.
 
 ## Software and Dependencies
 
@@ -117,28 +116,10 @@ The main libraries include:
 - scikit-learn
 - statsmodels
 
-Install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
-```
-
-The `requirements.txt` file should specify the dependencies required to execute the notebooks.
-
-## Reproducing the Analysis
-
-To reproduce the analysis:
-
-1. Clone or download this repository.
-2. Install the Python dependencies listed in `requirements.txt`.
-3. Obtain the required FRSC and NBS datasets, if they are not included in the repository.
-4. Update any dataset paths to match the local directory structure.
-5. Open the notebooks in JupyterLab or Jupyter Notebook.
-6. Execute the notebooks in the documented sequence, beginning with exploratory analysis and progressing to forecasting and evaluation.
 
 The annual and state-quarter analyses use separate datasets and should be interpreted as distinct forecasting exercises.
 
-Reproduction of the results requires the corresponding source data, software dependencies and model specifications.
 
 ## Key Findings
 
@@ -174,6 +155,6 @@ Users should acknowledge the original FRSC and NBS data sources and consult the 
 
 Federal Road Safety Corps (FRSC). Annual road traffic crash statistics and reports. https://frsc.gov.ng/documentations/annual-reports/
 
-National Bureau of Statistics (NBS). Road transport data and statistical publications. https://microdata.nigerianstat.gov.ng/
+National Bureau of Statistics (NBS). Road transport data and statistical publications. https://nigerianstat.gov.ng/elibrary/
 
 Sanusi, Adebola and Adegoke (2016). ARIMA-based road traffic accident forecasting study. Full bibliographic details are provided in the accompanying dissertation.
